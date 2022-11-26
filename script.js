@@ -31,7 +31,7 @@ document
     const inputCheckbox = document.querySelectorAll('input[name="dateCheckbox"]:checked')
     const outputMessage = document.querySelector('.output .message')
 
-    const {recipientName, dateStart, dateEnd } = form
+    const { recipientName, dateStart, dateEnd } = form
     
     inputRadio.forEach(item => {
       arrInputRadioAndCheckedValue.push( item.value )
