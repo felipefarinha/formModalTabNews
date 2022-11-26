@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>TabNews</title>
+</head>
+<body>
+  <div class="btnOpenModal">
+    <h1>Abrir modal</h1>
+  </div>
+
+    <div class="wrap_Modal ">
+      <div class="fade"></div>
+
+      <div class="modal-content">
+
+        <div class="btnClose"></div>
+        
+        <div class="modal-header">
+          <h1>Nova Tarefa</h1>
+        </div>
+
+        <div class="modal-body">
+          <fieldset>
+            <form>
+            
+              <div class="inputBox">
+                <label for="recipient-name" >Tarefa:</label>
+                <input type="text" id="recipientName">
+              </div>
+
+              <div class="inputBox">
+                <label for="dateStart" >Data de Inicio:</label>
+                <input type="date" id="dateStart">
+              </div>
+
+              <div class="inputBox">
+                <label for="dateEnd" >Data de Termino:</label>
+                <input type="date"  id="dateEnd">
+              </div>
+
+              <div class="wrapInputDemo">
+
+                <div class="inputDemoBox">
+                  <label for="inputRadioOne" >input radio One</label>
+                  <input type="radio" name="inputRadio" value="radioOne" id="inputRadioOne">
+                </div>
+
+                <div class="inputDemoBox">
+                  <label for="inputRadioTwo" >input radio Two</label>
+                  <input type="radio" name="inputRadio" value="radioTwo" id="inputRadioTwo">
+                </div>
+
+                <div class="inputDemoBox">
+                  <label >input checkbox</label>
+                  <input type="checkbox" name="dateCheckbox" value="checkboxOne"/>
+                  <input type="checkbox" name="dateCheckbox" value="checkboxTwo"/>
+                </div>
+              
+              </div>
+
+            </form>
+          </fieldset>
+
+          <input type="submit" class="btnSubmit" value="Criar tarefa"/>
+          
+          <div class="output">
+            <h3>output:</h3>
+            <div class="message"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+</body>
+</html>  
